@@ -1,0 +1,8 @@
+.messages_container::-webkit-scrollbar {
+  display: none;
+}
+
+.messages_container {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
